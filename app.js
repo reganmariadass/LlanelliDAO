@@ -1,4 +1,4 @@
-const contractAddress = "0xYourContractAddress";
+const contractAddress = "0xe2899bddFD890e320e643044c6b95B9B0b84157A";
 const contractABI = [
   "function joinDAO() external",
   "function createProposal(string,uint) external",
