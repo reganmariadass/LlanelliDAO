@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Llanelli DAO</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <h1>Llanelli DAO</h1>
+  <button onclick="joinDAO()">Join DAO</button>
+
+  <div>
+    <input id="description" placeholder="Proposal description" />
+    <input id="amount" placeholder="Amount in ETH" />
+    <button onclick="createProposal()">Create Proposal</button>
+  </div>
+
+  <div>
+    <input id="voteId" placeholder="Proposal ID to vote" />
+    <button onclick="voteOnProposal()">Vote</button>
+  </div>
+
+  <div>
+    <input id="executeId" placeholder="Proposal ID to execute" />
+    <button onclick="executeProposal()">Execute Proposal</button>
+  </div>
+
+  <div id="output"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
